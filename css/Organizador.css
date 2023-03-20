@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(30, 32, 34);
+}
+
+input{
+    margin: 5px;
+    padding: 0px;
+    border: 0px;
+    font-weight: bold;
+}
+
+input[type="color"] {
+    appearance: none;
+	-webkit-appearance: none;
+	border: none;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+	border: 1px solid;
+    border-color: white;
+}
+
+.tarjetaTextArea {
+    background: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+    font-weight: bold;
+}
+
+.boton{
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+}
+
+.nameInputTituloInput{
+    background-color: transparent;
+    font-size: 16px;
+    text-align: center;
+}
+
+.texto-explicativo{
+    color: white;
+    margin: 5px;
+}
+
+#organizador {
+    all: unset;
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    margin: 5px;
+    font-weight: bold;
+}
+
+#creador {
+    border: 1px solid;
+    border-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    min-width: 540px;
+}
+
+#panel {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    min-width: 220px;
+    max-width: 1920px;
+    flex-wrap: wrap;
+}
+
+#formularioTarjetas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin: 5px;
+}
+
+#name-input{
+    border: 1px solid;
+    border-color: white;
+    padding: 5px;
+}
+
+#create-button{
+    background-color: #7afcff;
+    border-color: transparent;
+    min-height: 30px;
+    min-width: 30px;
+}
